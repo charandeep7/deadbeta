@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import Navbar from "./components/NavBar";
-import HeroSection from "./components/HeroSection";
+import Navbar from "./components/landing/NavBar";
+import HeroSection from "./components/landing/HeroSection";
 
 export default function Home() {
   return (
