@@ -93,13 +93,22 @@ const Navbar = () => {
                   <UserCircleIcon className="h-10 w-10 " />
                 </button>
                 {showMenu && (
-                  <div className="absolute right-2 bg-gradient-to-b from-slate-200 to bg-purple-300 py-2 shadow drop-shadow-md cursor-pointer flex flex-col min-w-[120px] text-center">
+                  <div className="absolute right-2 bg-gradient-to-b from-slate-200 to bg-purple-300 py-2 shadow drop-shadow-md cursor-pointer flex flex-col min-w-[120px] text-cente rounded-xl">
                     {
                       <Link
                         href={"/login"}
-                        className="whitespace-nowrap cursor-pointer px-2"
+                        className="whitespace-nowrap cursor-pointer px-3 p-2"
                       >
                         Log IN
+                      </Link>
+                      
+                    }
+                    {
+                      <Link
+                        href={"/signup"}
+                        className="whitespace-nowrap cursor-pointer px-3"
+                      >
+                        Sign UP
                       </Link>
                     }
                   </div>
