@@ -6,7 +6,7 @@ License: CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 Source: https://sketchfab.com/3d-models/earth-roll-39dbf14a2ec84a2089ef4331cf38e292
 Title: Earth roll
 */
-
+"use client"
 import React, { useRef } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { useThree } from '@react-three/fiber'

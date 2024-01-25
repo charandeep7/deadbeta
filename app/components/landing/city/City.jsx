@@ -6,7 +6,7 @@ License: CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 Source: https://sketchfab.com/3d-models/mafer-city-2bd53c28a598423f81e883224332dfd1
 Title: Mafer_City
 */
-
+"use client"
 import React, { useRef } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { useThree } from '@react-three/fiber'

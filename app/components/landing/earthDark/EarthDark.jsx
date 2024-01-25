@@ -6,7 +6,7 @@ License: CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 Source: https://sketchfab.com/3d-models/hologram-earth-dark-land-2b353748066649849d5def841324b229
 Title: Hologram Earth_Dark Land
 */
-
+"use client"
 import React, { useRef } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { useThree } from '@react-three/fiber'
