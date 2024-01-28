@@ -122,11 +122,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        {/* <div>
-        <UserCircleIcon className="h-10 w-10" />
-      </div> */}
       </div>
-
       {navbarOpen ? <MenuOverlay links={NavLinks} /> : null}
     </nav>
   );
