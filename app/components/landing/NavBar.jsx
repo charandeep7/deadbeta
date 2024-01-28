@@ -12,6 +12,7 @@ import { MagnifyingGlassIcon } from "@radix-ui/react-icons";
 import MenuOverlay from "./MenuOverLay";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import ThemeToggle from "./ThemeToggle";
 
 const NavLinks = [
   {
@@ -39,7 +40,7 @@ const Navbar = () => {
     setShowMenu((preve) => !preve);
   };
   return (
-    <nav className="h-16 fixed top-0 left-0 right-0 z-10 bg-gradient-to-r from-teal-500 via-cyan-500 to-indigo-500 bg-opacity-80 rounded-b">
+    <nav className="h-16 fixed top-0 left-0 right-0 z-10  bg-opacity-80 dark:bg-slate-800 bg-gradient-to-r from-teal-500 via-cyan-500 to-indigo-500 rounded-b">
       <div className="flex flex-wrap items-center justify-between mx-auto p-8 px-4 py-2">
         <Link href={"/"} className="text-2xl md:text-5xl  font-semibold">
           <Image
@@ -87,6 +88,11 @@ const Navbar = () => {
                 <NavLink href={link.path} title={link.title} />
               </li>
             ))}
+            <li>
+              <di className = "flex flex-1 justify-end">
+                <ThemeToggle/>
+              </di>
+            </li>
             <li>
               <div className="" onClick={handleShowMenu}>
                 <button className="flex items-center mt-[-6px]">
