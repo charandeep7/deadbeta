@@ -7,7 +7,7 @@ export default function Event() {
     location: "Charbagh Lucknow",
   };
   const user = Array.from({ length: 100 }, () => ({ ...obj }));
-  console.log(user);
+  // console.log(user);
   return (
     <div className="mt-12">
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
