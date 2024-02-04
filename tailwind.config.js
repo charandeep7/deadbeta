@@ -23,7 +23,7 @@ module.exports = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        
+
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -73,8 +73,15 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       backgroundImage: {
-        primaryBG: "linear-gradient(to right, rgb(149, 236, 247), rgb(240, 240, 240))",
-        secondaryBG: 'linear-gradient(102deg, rgba(3, 5, 29, 0.85) 2.11%, rgba(255, 0, 0, 0.85) 100%)'
+        primaryBG:
+          "linear-gradient(to right, rgb(149, 236, 247), rgb(240, 240, 240))",
+        secondaryBG:
+          "linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%)",
+
+        navprimaryBG:
+          "linear-gradient(to right, #4fd1c5, #48bbf7, #667eea)",
+        navsecondaryBG:
+          "linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%)",
       },
     },
   },

@@ -19,7 +19,7 @@ const HeroSection = () => {
           />
         </div>
         <div className="-mt-9">
-          <h1 className=" text-black text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+          <h1 className=" text-black dark:text-slate-200 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             Dead Beta
           </h1>
           <p className="text-center">Help to connect people</p>

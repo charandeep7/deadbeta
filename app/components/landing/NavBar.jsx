@@ -20,14 +20,6 @@ const NavLinks = [
     path: "#about",
   },
   {
-    title: "Skills",
-    path: "#skills",
-  },
-  {
-    title: "Projects",
-    path: "#projects",
-  },
-  {
     title: "Contact",
     path: "#contact",
   },
@@ -40,7 +32,7 @@ const Navbar = () => {
     setShowMenu((preve) => !preve);
   };
   return (
-    <nav className="h-16 fixed top-0 left-0 right-0 z-10  bg-opacity-80 dark:bg-slate-800 bg-gradient-to-r from-teal-500 via-cyan-500 to-indigo-500 rounded-b">
+    <nav className="h-16 fixed top-0 left-0 right-0 z-10  bg-opacity-80 bg-navprimaryBG dark:bg-navsecondaryBG dark:opacity-95 rounded-b">
       <div className="flex flex-wrap items-center justify-between mx-auto p-8 px-4 py-2">
         <Link href={"/"} className="text-2xl md:text-5xl  font-semibold">
           <Image
@@ -53,13 +45,13 @@ const Navbar = () => {
 
         <div className="ml-10 hidden sm:flex">
           <input
-            className="flex h-9 w-full rounded-md border border-black/30 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
+            className="flex w-full h-9 rounded-md border border-black/30 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-slate-200 dark:placeholder:text-slate-300 dark:text-white"
             type="search"
             placeholder="Search"
-            width={50}
+            width={500}
           ></input>
-          <Button className="border border-gray-600 py-2 px-4 rounded focus:outline-none">
-            <MagnifyingGlassIcon class="h-6 w-6 text-gray-500" />
+          <Button className="border border-gray-600 dark:border-white py-2 px-4 rounded focus:outline-none">
+            <MagnifyingGlassIcon class="h-6 w-6 text-gray-500 dark:text-white" />
           </Button>
         </div>
 
@@ -69,14 +61,14 @@ const Navbar = () => {
               onClick={() => setNavbarOpen(true)}
               className="flex items-center px-3 py-2 border rounded"
             >
-              <Bars3Icon className="h-5 w-5" />
+              <Bars3Icon className="h-5 w-5 dark:text-slate-200" />
             </button>
           ) : (
             <button
               onClick={() => setNavbarOpen(false)}
               className="flex items-center px-3 py-2 border rounded "
             >
-              <XMarkIcon className="h-5 w-5" />
+              <XMarkIcon className="h-5 w-5  dark:text-slate-200" />
             </button>
           )}
         </div>
@@ -96,7 +88,7 @@ const Navbar = () => {
             <li>
               <div className="" onClick={handleShowMenu}>
                 <button className="flex items-center mt-[-6px]">
-                  <UserCircleIcon className="h-10 w-10 " />
+                  <UserCircleIcon className="h-10 w-10 dark:text-slate-100" />
                 </button>
                 {showMenu && (
                   <div className="absolute right-2 bg-gradient-to-b from-slate-200 to bg-purple-300 py-2 shadow drop-shadow-md cursor-pointer flex flex-col min-w-[120px] text-center rounded-xl">

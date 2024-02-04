@@ -46,7 +46,7 @@ const Footer = () => {
               <ul>
                 <li className="mb-4">
                   <a
-                    className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-base font-medium text-gray-900 dark:text-slate-300 dark:hover:text-white hover:text-gray-700"
                     href="#"
                   >
                     Features
@@ -54,7 +54,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <a
-                    className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-base font-medium text-gray-900 dark:text-slate-300 dark:hover:text-white hover:text-gray-700 "
                     href="#"
                   >
                     Pricing
@@ -62,7 +62,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <a
-                    className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-base font-medium text-gray-900 dark:text-slate-300 dark:hover:text-white hover:text-gray-700"
                     href="#"
                   >
                     Affiliate Program
@@ -70,7 +70,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-base font-medium text-gray-900 dark:text-slate-300 dark:hover:text-white hover:text-gray-700"
                     href="#"
                   >
                     Press Kit
@@ -87,7 +87,7 @@ const Footer = () => {
               <ul>
                 <li className="mb-4">
                   <a
-                    className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-base font-medium text-gray-900 dark:text-slate-300 dark:hover:text-white hover:text-gray-700"
                     href="#"
                   >
                     Account
@@ -95,7 +95,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <a
-                    className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-base font-medium text-gray-900 dark:text-slate-300 dark:hover:text-white hover:text-gray-700"
                     href="#"
                   >
                     Help
@@ -103,7 +103,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <a
-                    className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-base font-medium text-gray-900 dark:text-slate-300 dark:hover:text-white hover:text-gray-700"
                     href="#"
                   >
                     Contact Us
@@ -111,7 +111,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-base font-medium text-gray-900 dark:text-slate-300 dark:hover:text-white hover:text-gray-700"
                     href="#"
                   >
                     Customer Support
@@ -128,7 +128,7 @@ const Footer = () => {
               <ul>
                 <li className="mb-4">
                   <a
-                    className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-base font-medium text-gray-900 dark:text-slate-300 dark:hover:text-white hover:text-gray-700"
                     href="#"
                   >
                     Terms &amp; Conditions
@@ -136,7 +136,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <a
-                    className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-base font-medium text-gray-900 dark:text-slate-300 dark:hover:text-white hover:text-gray-700"
                     href="#"
                   >
                     Privacy Policy
@@ -144,7 +144,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-base font-medium text-gray-900 dark:text-slate-300 dark:hover:text-white hover:text-gray-700"
                     href="#"
                   >
                     Licensing
