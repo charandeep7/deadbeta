@@ -1,6 +1,5 @@
-import Navbar from "./components/landing/NavBar";
 import HeroSection from "./components/landing/HeroSection";
-import Footer from "./components/landing/Footer";
+import Price from "./components/price-comparison/page";
 
 export default function Home() {
   return (
