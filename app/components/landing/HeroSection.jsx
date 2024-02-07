@@ -7,7 +7,7 @@ import City3d from "./city/City3d";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col sm:flex-row mt-16 justify-evenly">
+    <div className="flex flex-col sm:flex-row mt-16  justify-evenly">
       <div className="w-full h-[calc((100vh-16px)/2)] sm:h-[calc(100vh-16px)] sm:w-1/2 flex flex-col justify-center items-center">
         <div>
           <Image
