@@ -17,7 +17,7 @@ const SearchBar = ({ setResults }) => {
           );
         });
         // console.log(results);
-        setResults(results)
+        setResults(results);
       });
   };
 
@@ -28,7 +28,7 @@ const SearchBar = ({ setResults }) => {
 
   return (
     <div className="bg-slate-200 w-full rounded-2xl h-10 dark:bg-slate-800  shadow-[#ddd] flex items-center">
-      <FaSearch className="text-blue-500" id="search-icon" />
+      <FaSearch className="text-blue-500 ml-2" id="search-icon" />
       <input
         className="transparent bg-slate-200 dark:bg-slate-800 dark:text-slate-100 border-none h-full font-medium ml-1 focus:outline-none w-full rounded-2xl"
         placeholder="type to search ..."

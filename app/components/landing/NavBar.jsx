@@ -46,7 +46,7 @@ const Navbar = () => {
           />
         </Link>
 
-        <div className="ml-10 w-50 hidden sm:flex">
+        {/* <div className="ml-10 w-50 hidden sm:flex"> */}
           {/* <input
             className="flex w-full h-9 rounded-md border border-black/30 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-slate-200 dark:placeholder:text-slate-300 dark:text-white"
             type="search"
@@ -56,7 +56,7 @@ const Navbar = () => {
           <Button className="border border-gray-600 dark:border-white py-2 px-4 rounded focus:outline-none">
             <MagnifyingGlassIcon class="h-6 w-6 text-gray-500 dark:text-white" />
           </Button> */}
-        </div>
+        {/* </div> */}
 
         <div className="mobile-menu flex md:hidden">
           <div className="mr-2 mt-2">
